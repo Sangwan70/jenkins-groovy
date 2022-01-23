@@ -7,13 +7,9 @@
 #+BEGIN_HTML
 <a href="https://github.com/Sangwan70/jenkins-groovy"><img align="right" width="200" height="183" src="https://www.dennyzhang.com/wp-content/uploads/denny/watermark/github.png" /></a>
 <div id="the whole thing" style="overflow: hidden;">
-<div style="float: left; padding: 5px"> <a href="https://www.linkedin.com/in/rnsangwan/"><img src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.6435-9/67936488_1333790973453736_1200047500686262272_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=1sQ9JhWjxPYAX_3gDmC&_nc_ht=scontent-sea1-1.xx&oh=00_AT-szZPlXZ6zrhw1cD2n4eiPAmh2SkSfYs3RDUO9U6V47w&oe=62131715" alt="linkedin" /></a></div>
+<div style="float: left; padding: 5px"> <a href="https://www.linkedin.com/in/rnsangwan/"><img src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.6435-9/67936488_1333790973453736_1200047500686262272_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=1sQ9JhWjxPYAX_3gDmC&_nc_ht=scontent-sea1-1.xx&oh=00_AT-szZPlXZ6zrhw1cD2n4eiPAmh2SkSfYs3RDUO9U6V47w&oe=62131715" width="240" alt="linkedin" /></a></div>
 <div style="float: left; padding: 5px"><a href="https://www.rnsangwan.com">Check my Profile</a></div>
-<div style="float: left; padding: 5px"><a href="https://www.theskillpedia.com" target="_blank" rel="nofollow">The SkillPedia - Learn Online</a></div>
-</div>
-
 <br/><br/>
-<a href="http://makeapullrequest.com" target="_blank" rel="nofollow"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"/></a>
 #+END_HTML
 
 - Online Training URL: [[https://https://www.theskillpedia.com][The SkillPedia]]
