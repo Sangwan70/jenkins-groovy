@@ -1,4 +1,4 @@
-// https://github.com/thbkrkr/jks/blob/master/init.groovy.d/11-configure-pipeline-global-shared.groovy
+
 /*
  * Configure pipeline shared libraries in the global Jenkins configuration.
  * This will safely compare configured libraries and only overwrite the global

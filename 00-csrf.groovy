@@ -1,4 +1,4 @@
-// https://wiki.jenkins.io/display/JENKINS/CSRF+Protection
+
 import hudson.security.csrf.DefaultCrumbIssuer
 import jenkins.model.Jenkins
  

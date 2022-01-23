@@ -12,7 +12,7 @@ if (hudson.model.User.getAll().size()==1 && hudson.model.User.getAll()[0].toStri
     strategy.add(hudson.model.Hudson.ADMINISTER, it)
   }
 
-  // Add read permission for all users
+  
   strategy.add(hudson.model.Item.READ,'anonymous')
   strategy.add(hudson.model.Item.DISCOVER,'anonymous')
   strategy.add(hudson.model.Hudson.READ,'anonymous')

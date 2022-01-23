@@ -1,17 +1,5 @@
 #!groovy
-//-------------------------------------------------------------------
-// @copyright 2018 DennyZhang.com
-// Licensed under MIT
-// https://www.dennyzhang.com/wp-content/mit_license.txt
-//
-// File: matrix-authorization-strategy.groovy
-// Author : Denny <https://www.dennyzhang.com/contact>
-// Link: https://cheatsheet.dennyzhang.com/cheatsheet-jenkins-groovy-a4
-// --
-// Created : <2018-04-20>
-// Updated: Time-stamp: <2019-05-01 16:53:20>
-//-------------------------------------------------------------------
-// http://www.tothenew.com/blog/jenkins-implementing-project-based-matrix-authorization-strategy/
+
 /*
    Configure matrix authorization strategy with permissions for users and
    groups.  This script is idempotent and will only change configuration if
@@ -166,17 +154,11 @@ if(Helper.isConfigurationEqual(authz_strategy_config)) {
 println "Configuring authorization strategy ${authz_strategy_config['strategy']}"
 
 def authz_strategy = Class.forName("hudson.security.${authz_strategy_config['strategy']}").newInstance()
-
-// build the permissions in the strategy
 authz_strategy_config['user_permissions'].each { user, permissions ->
    permissions.each { p ->
       authz_strategy.add(permissionIds[p], user)
       println "    For user ${user} grant permission ${p}."
    }
 }
-
-// configure global authorization
 Jenkins.instance.authorizationStrategy = authz_strategy
-
-// save settings to persist across restarts
 Jenkins.instance.save()
