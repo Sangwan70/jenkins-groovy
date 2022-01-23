@@ -1,16 +1,4 @@
 #!/usr/bin/env bash
-##  @copyright 2019 DennyZhang.com
-## Licensed under MIT 
-##   https:
-##
-## File: list-all-jenkins-agent.sh
-## Author : Denny <https:
-## Description : List all trouble shooting traces for each Jenkins agent
-## --
-## Created : <2019-08-30>
-## Updated: Time-stamp: <2019-08-30 14:41:22>
-##-------------------------------------------------------------------
-#!/usr/bin/env bash
 # set -o errexit
 set -o pipefail
 set -o nounset
